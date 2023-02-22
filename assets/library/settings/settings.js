@@ -14,7 +14,7 @@
 									'</ul>'+
 									'<hr>'+
 									'<h3>COLORS</h3>'+
-									'<span class="blue" 		title="Blue" 		data-color="#7c4fe0"></span>'+
+									'<span class="blue" 		title="Blue" 		data-color="#0067CF"></span>'+
 									'<span class="green" 		title="Green" 		data-color="#2aa275"></span>'+
 									'<span class="red" 			title="Red" 		data-color="#ff3d65"></span>'+
 									'<span class="turquoise" 	title="Turquoise" 	data-color="#46cad7"></span>'+
