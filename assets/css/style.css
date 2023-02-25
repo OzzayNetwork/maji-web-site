@@ -3240,7 +3240,14 @@ footer .copyright a {
 .icon.largest i {
 	font-size:130px;
 }
-
+.image-bg{
+	background-color: red;
+	background-image: url(../../images/banner/maji-bowser.jpg);
+	background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+}
 
 
 
