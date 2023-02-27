@@ -851,7 +851,9 @@
 					
 					<!-- Image -->
 					<div class="col-12 col-lg-5 order-lg-first text-sm-center ">
-						<img src="images/overview/track-time.png" alt="" />
+						<div class="sticky-phone-wrap">
+							<img src="images/overview/track-time.png" alt="" />
+						</div>
 					</div>
 					
 				</div>
@@ -915,7 +917,7 @@
 
 		<!-- driver's app -->
 		<section id="driver-app" class="bg-dark">
-			<div class="container">
+			<div class="container ">
 				<div class="row d-flex justify-content-center align-items-center">
 					<div class="col-12 col-lg-6 res-margin">
 						<div class="section-title text-center text-white">
@@ -945,7 +947,7 @@
 								</div>
 								<div class="col-lg-2 col-sm-none">
 									<div>
-										<img src="images/icons/da_icon.webp" alt="" class="img bounce-6">
+										<img src="images/icons/da_icon.webp" alt="" class="img bounce-effect">
 									</div>
 								</div>
 								<div class="col-5 col-lg-5 col-md-6 col-sm-12">
@@ -953,7 +955,7 @@
 										<a href="#" class="custom-btn btn-black d-inline-flex align-items-center m-2 m-sm-0 me-sm-3">
 											<i class="fab fa-google-play"></i>
 											<p>
-												<Small class="text-white">GET IT ON</Small>
+												<Small class="">GET IT ON</Small>
 												<span>Google Play</span>
 											</p>
 										</a>
@@ -961,7 +963,7 @@
 										<a href="#" class="custom-btn btn-black d-inline-flex align-items-center m-2 m-sm-0 me-sm-3">
 											<i class="fab fa-apple"></i>
 											<p>
-												<Small class="text-white">Download on the</Small>
+												<Small class="">Download on the</Small>
 												<span>App Store</span>
 											</p>
 										</a>
@@ -977,24 +979,121 @@
 		<!-- driver's app -->
 		
 		<!-- Testimonials -->
-		<section id="testimonials" class="frost-bg">
+		<section id="testimonials" class="frost-bg-3">
 			
 			<!-- Container -->
-			<div class="container">
+			<div class="container pt-200">
 				
 				<!-- Section title -->
 				<div class="row justify-content-center">
 					<div class="col-12 col-md-10 col-lg-6">
 						
 						<div class="section-title text-center">
-							<h3>Client Reviews</h3>
-							<p>Donec purus est, tincidunt eu sodales quis, vehicula quis enim. Morbi dapibus, tellus a gravida faucibus, elit ipsum.</p>
+							<h3>Platform<span class="txt-highlight">Functions</span></h3>
+							<p>Having conducted a thorough market research it was vital for the system to be
+								capable to carry out the following functions so as to ensure it is a success:</p>
 						</div>
 						
 					</div>
 				</div>
+
+				<div class="row d-flex justify-content-center align-items-center mobile-features line-y">
+					<div class="col-12 col-md-6 col-lg-4"> 				
+						<ul class="features-item">
+							
+							<!-- Feature box -->
+							<li> 
+								<div class="feature-box d-flex"> 
+									
+									<!-- Box icon -->
+									<div class="box-icon">
+										<div class="icon icon-basic-gear d-none"></div>
+										<img src="images/icons/icons8-note-94.png" alt="" class="">
+									</div>
+									
+									<!-- Box Text -->
+									<div class="box-text align-self-center align-self-md-start">
+										<h4>Track Your Orders</h4>
+										<p>
+											Get to keep a record of your orders and have a real time overview of your performance
+										</p>
+									</div>
+									
+								</div>
+							</li>
+							
+							<!-- Feature box -->
+							<li class=""> 
+								<div class="feature-box d-flex mt-5"> 
+									
+									<!-- Box icon -->
+									<div class="box-icon">
+										<div class="icon icon-basic-gear d-none"></div>
+										<img src="images/icons/icons8-trophy-94.png" alt="" class="">
+									</div>
+									<!-- Box Text -->
+									<div class="box-text align-self-center align-self-md-start">
+										<h4>Referal Rewarding</h4>
+										<p>As a driver, you will get cash rewards for customer referals</p>
+									</div>
+									
+								</div>
+							</li>
+							
+							
+							
+						</ul>
+					</div>
+
+					<div class="col-12 col-md-6 col-lg-4"> 				
+						<ul class="features-item">
+							
+							<!-- Feature box -->
+							<li> 
+								<div class="feature-box d-flex"> 
+									
+									<!-- Box icon -->
+									<div class="box-icon">
+										<div class="icon icon-basic-gear d-none"></div>
+										<img src="images/icons/morphis-green-lightning-bolt.png" alt="" class="">
+									</div>
+									
+									<!-- Box Text -->
+									<div class="box-text align-self-center align-self-md-start">
+										<h4>Quick Pay</h4>
+										<p>Take advantage of our quick and fast payment checkout model</p>
+									</div>
+									
+								</div>
+							</li>
+							
+							<!-- Feature box -->
+							<li class=""> 
+								<div class="feature-box d-flex mt-5"> 
+									
+									<!-- Box icon -->
+									<div class="box-icon">
+										<img src="images/icons/icons8-people-94.png" alt="" class="">
+									</div>
+									
+									<!-- Box Text -->
+									<div class="box-text align-self-center align-self-md-start">
+										<h4>Clientel</h4>
+										<p>
+											Take advantage of our platform which is trusted by thousands of Nairobi residents.
+										</p>
+									</div>
+									
+								</div>
+							</li>
+							
+							
+							
+						</ul>
+					</div>
+				</div>
 				
-				<div class="row">
+				<div class="row d-none">
 					<div class="col-12 testimonial-carousel">
 						
 						<!-- Text -->
@@ -2114,9 +2213,7 @@
 		<!-- Main -->
 		<script src="assets/js/main.js"></script>
 		
-		<!-- Settings (Remove it on your site) -->
-		<script src="assets/library/settings/jquery.cookies.min.js"></script>
-		<script src="assets/library/settings/settings.js"></script>
+		
         
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-DB0Z96DK5Z"></script>

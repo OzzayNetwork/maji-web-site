@@ -1274,7 +1274,9 @@ section.parallax a:hover {
 	margin-right:30px;
 }
 .feature-box .box-icon img{
-	width: 150px;
+	height: 70px;
+    width: auto;
+	max-width: fit-content;
 }
 
 .feature-box .box-icon .icon {
@@ -3355,6 +3357,7 @@ footer .copyright a {
 	padding: 10px 25px;
     font-weight: 500;
     border-radius: 3px;
+	border: 1px solid black;
 }
 .btn-black i{
 	font-size: 27px;
@@ -3375,6 +3378,48 @@ footer .copyright a {
     font-weight: 500;
     transition: all 0.3s;
 }
+.btn-black:hover{
+	background-color: transparent;
+	color: black;
+	border-color: black;
+}
+
+.btn-black:hover p span{
+	color: black;
+}
+.line-y::after{
+	position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    width: 1px;
+    height: 100%;
+    border-left: 1px dashed rgba(0,0,0,.25);
+    content: "";
+    z-index: 3;
+    -webkit-transition: .8s;
+    -o-transition: .8s;
+    transition: .8s;
+    transition-delay: 1s;
+    bottom: 0px;
+}
+
+.btn-black:hover i{
+	color: black;
+}
+
+.btn-black:hover p small{
+	color: black;
+}
+
+.btn-black small{
+	color: white;
+}
+
+
+
 
 .bounce-7 {
 	animation-name: bounce-7;
@@ -3410,6 +3455,9 @@ footer .copyright a {
 	57%  { transform: scale(1,1)      translateY(-7px); }
 	64%  { transform: scale(1,1)      translateY(0); }
 	100% { transform: scale(1,1)      translateY(0); }
+}
+.pt-200{
+	padding-top: 200px !important;
 }
 
 
