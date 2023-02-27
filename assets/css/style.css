@@ -3252,7 +3252,7 @@ footer .copyright a {
     background-position: bottom center;
     background-repeat: no-repeat;
 }
-.frost-bg, .frost-bg-2{
+.frost-bg, .frost-bg-2,.frost-bg-3{
 	background-image: url(../../images/Frost/hero_bg.webp);
 	background-size: cover;
 	
@@ -3260,6 +3260,11 @@ footer .copyright a {
 .frost-bg-2{
 	background-image: url(../../images/Frost/promo_bg.webp);
 }
+
+.frost-bg-3{
+	background-image: url(../../images/Frost/testimonial_bg.png);
+}
+
 .mobile-features{
 	position: relative;
 }
@@ -3315,7 +3320,97 @@ footer .copyright a {
 .subtitle{
 	margin-bottom: 10px;
 }
+.bg-dark{
+	background-color: #000 !important;
+}
+.tma-cta__big-title{
+	position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 400px;
+    text-transform: uppercase;
+	font-family: 'Poppins', sans-serif;
+    color: rgba(255,255,255,.6);
+    opacity: .1;
+    font-weight: 700;
+    line-height: 1.2;
+    z-index: -1;
+}
+.download-cont{
+	background-color: #fff;
+    padding: 42px 20px;
+    box-shadow: 0 4px 14px rgb(0 0 0 / 3%);
+    margin-top: -68px;
+    z-index: 22;
+	width: 100%;
+	position: absolute;
+	bottom: -25%;
+}
+.btn-black{
+	background-color: black;
+	color: white;
+	padding: 15px;
+	font-family: 'Poppins', sans-serif;
+	padding: 10px 25px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.btn-black i{
+	font-size: 27px;
+    margin-right: 15px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.btn-black p{
+	margin: 0px;
+	padding: 0px;
+	line-height: 1.2;
+}
 
+.btn-black p span {
+    display: block;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+
+.bounce-7 {
+	animation-name: bounce-7;
+	animation-timing-function: cubic-bezier(0.280, 0.840, 0.420, 1);
+
+	animation-duration: 2s;
+        animation-iteration-count: infinite;
+		transform-origin: bottom;
+}
+@keyframes bounce-7 {
+	0%   { transform: scale(1,1)      translateY(0); }
+	10%  { transform: scale(1.1,.9)   translateY(0); }
+	30%  { transform: scale(.9,1.1)   translateY(-100px); }
+	50%  { transform: scale(1.05,.95) translateY(0); }
+	57%  { transform: scale(1,1)      translateY(-7px); }
+	64%  { transform: scale(1,1)      translateY(0); }
+	100% { transform: scale(1,1)      translateY(0); }
+}
+
+.bounce-6 {
+	animation-name: bounce-6;
+	animation-timing-function: ease;
+
+	animation-duration: 2s;
+        animation-iteration-count: infinite;
+		transform-origin: bottom;
+}
+@keyframes bounce-6 {
+	0%   { transform: scale(1,1)      translateY(0); }
+	10%  { transform: scale(1.1,.9)   translateY(0); }
+	30%  { transform: scale(.9,1.1)   translateY(-100px); }
+	50%  { transform: scale(1.05,.95) translateY(0); }
+	57%  { transform: scale(1,1)      translateY(-7px); }
+	64%  { transform: scale(1,1)      translateY(0); }
+	100% { transform: scale(1,1)      translateY(0); }
+}
 
 
 
