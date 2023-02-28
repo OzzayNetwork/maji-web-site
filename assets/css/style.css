@@ -3462,7 +3462,10 @@ footer .copyright a {
 .sticky-phone-wrap{
 	position: sticky;
 	position:-webkit-sticky;
-	top: 140px;
+	top: 110px;
+}
+.h-80{
+	height: 80px;
 }
 
 
