@@ -700,6 +700,16 @@
 					dotsEach:2,
 					rtl:NaxosOptions.rtl
                 });
+
+				$('.feature-img').owlCarousel({
+					loop:true,
+					margin:0,
+					nav:false,
+					autoplay:true,
+					autoplayTimeout:3000,
+					items:1,
+					animateOut: 'fadeOut'
+				})
 			}
 			
 			//Testimonials
