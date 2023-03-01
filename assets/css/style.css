@@ -796,6 +796,7 @@ section.parallax a:hover {
 	width:30px;
 	height:40px;
     border-radius:3px;
+	margin-right: 35px;
 }
 
 .menu-bar span {
@@ -3469,6 +3470,12 @@ footer .copyright a {
 }
 .navbar-brand  img{
 	max-height: 55px;
+}
+.logo img{
+	width: 150px;
+}
+.header #mainNav{
+	width: 100vw;
 }
 
 @media screen and (max-width: 600px) {
