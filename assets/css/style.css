@@ -3467,6 +3467,43 @@ footer .copyright a {
 .h-80{
 	height: 80px;
 }
+.navbar-brand  img{
+	max-height: 55px;
+}
+
+@media screen and (max-width: 600px) {
+	.the-apps{
+		border-radius: 0px;
+		padding-right: 7px;
+		padding-left: 7px;
+	}
+	.mobile-app-cont:first-child{
+		margin-bottom: 60px;
+	}
+	.mobile-app-cont div:last-child{
+		padding: 1.5rem !important;
+	}
+	.col-sm-none{
+		display: none !important;
+	}
+	.download-cont{
+		position: relative;
+		padding: 1.5rem !important;
+	}
+	.pt-sm-15px{
+		padding-top: 1.5rem !important;
+	}
+	.phone-btns div{
+		display: flex;
+		flex-direction: column !important;
+	}
+	.mobile-features::before, .mobile-features::after{
+		display: none;
+	}
+	.click-logo{
+		width: 300px;
+	}
+  }
 
 
 
