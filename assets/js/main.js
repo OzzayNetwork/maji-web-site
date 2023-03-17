@@ -150,19 +150,7 @@
 		
 		//Banner
 		banner:function() {
-			//Image background
-			if ($(".banner.image-bg").length>0) {
-				$(".banner.image-bg").backstretch("images/banner/single-image.jpg");
-			}
 			
-			//Slide background
-			if ($(".banner.slide-bg").length>0) {
-				$(".banner.slide-bg").backstretch([
-					"images/banner/slideshow-1.jpg", 
-					"images/banner/slideshow-2.jpg", 
-					"images/banner/slideshow-3.jpg"
-				], {duration:3000, fade:750});
-			}
 			
 			//Video background
 			if ($(".banner.video-bg").length>0) {
