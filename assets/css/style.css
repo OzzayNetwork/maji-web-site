@@ -3295,7 +3295,20 @@ footer .copyright a {
  .txt-highlight {
     padding-left: 10px;
     padding-right: 10px;
+	background: rgba(84,51,255,1);
     background: linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%);
+	
+
+	background: -moz-linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%); /* FF 3.6+ */  
+    background: -ms-linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5433ffe6), color-stop(100%, #20bdffe6)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#5433ffe6', endColorstr='#20bdffe6'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr=transparent)"; /* IE8+ */  
+    background: linear-gradient(91.22deg,rgba(84,51,255,.9) 6.88%,rgba(32,189,255,.9) 52.57%,rgb(70 121 241 / 90%) 93.2%); /* the standard */  
+
+
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
